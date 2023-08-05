@@ -7,8 +7,10 @@ const SharedLayout = () => {
       </div>
 
       {/* Small Screen */}
-      <div className="lg:hidden w-full h-full flex items-center justify-center text-gray-600 text-lg">
-        App usable on desktop only.
+      <div className="lg:hidden w-full h-full flex items-center justify-center ">
+        <div className="bg-white px-4 py-2 shadow-lg text-gray-800 text-xl">
+          App usable on desktop only.
+        </div>
       </div>
     </div>
   );
