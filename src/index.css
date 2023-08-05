@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #bebebe;
+
+    background-image: radial-gradient(#00000050 1.75px, #d4d4d4 1.75px);
+    background-size: 35px 35px;
+}
+
+input, input:focus {
+    outline:  none;
+}

@@ -10,6 +10,8 @@
 
 # production
 /build
+/BHU-22-04-09-0090
+/BHU-22-04-09-0090.zip
 
 # misc
 .DS_Store

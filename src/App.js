@@ -1,10 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
-import Home from "./routes/FRSC";
-import NIMC from "./routes/NIMC";
-import FRSC from "./routes/FRSC";
-import NIS from "./routes/NIS";
-import INEC from "./routes/INEC";
+import Home from "./routes/Home";
+import Dashboard from "./routes/Dashboard";
 import SharedLayout from "./components/SharedLayout";
 
 function App() {
@@ -12,11 +9,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
+          {/* Index route */}
           <Route index element={<Home />} />
-          <Route path="/NIMC" element={<NIMC />} />
-          <Route path="/FRSC" element={<FRSC />} />
-          <Route path="/NIS" element={<NIS />} />
-          <Route path="/INEC" element={<INEC />} />
+          {/* App routes */}
+          <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
     </Router>

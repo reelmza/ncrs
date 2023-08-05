@@ -1,0 +1,26 @@
+[
+  {
+    "username": "ng.nimc",
+    "password": "1234",
+    "name": "National Identity Management Commision",
+    "permisions": ["all"]
+  },
+  {
+    "username": "ng.frsc",
+    "password": "1234",
+    "name": "Federal Road Safety Commision",
+    "permisions": ["username", "basicData", "health"]
+  },
+  {
+    "username": "ng.nis",
+    "password": "1234",
+    "name": "National Immigration Service",
+    "permisions": ["username", "basicData", "address", "finances"]
+  },
+  {
+    "username": "ng.inec",
+    "password": "1234",
+    "name": "Independent Electoral Commision",
+    "permisions": ["username", "basicData", "address", "contact"]
+  }
+]

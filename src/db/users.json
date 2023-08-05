@@ -1,0 +1,92 @@
+[
+  {
+    "username": "NG001",
+    "basicData": {
+      "name": "Jesse Moses",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "occupation": "Student",
+      "nationality": "Nigerian"
+    },
+    "personalData": {
+      "dob": "21st April, 2000",
+      "height": "180CM",
+      "weight": "60KG"
+    },
+    "address": {
+      "country": "Nigeria",
+      "state": "Adamawa State",
+      "lga": "Michika LGA",
+      "ward": "23, Sangere Ward"
+    },
+    "contact": {
+      "phone": "09041431717",
+      "email": "jessemoses71@gmail.com"
+    },
+    "finances": {
+      "BVN": "2323445001",
+      "banks": ["UBA Bank, GT Bank, Access Bank"]
+    },
+    "health": { "bloodgroup": "AB+", "genotype": "AA", "ailments": null }
+  },
+  {
+    "username": "NG002",
+    "basicData": {
+      "name": "Abdulkarim Baba",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "occupation": "Student",
+      "nationality": "Nigerian"
+    },
+    "personalData": {
+      "dob": "13th July, 2000",
+      "height": "194CM",
+      "weight": "75KG"
+    },
+    "address": {
+      "country": "Nigeria",
+      "state": "Bauchi State",
+      "lga": "Toro LGA",
+      "ward": "13, Malali Ward"
+    },
+    "contact": {
+      "phone": "09087635544",
+      "email": "abditoro@gmail.com"
+    },
+    "finances": {
+      "BVN": "2323345001",
+      "banks": ["Union Bank, First Bank, Wema Bank"]
+    },
+    "health": { "bloodgroup": "O+", "genotype": "AS", "ailments": "Cripled" }
+  },
+  {
+    "username": "NG003",
+    "basicData": {
+      "name": "Stepahnie Okoronkwo",
+      "gender": "Female",
+      "maritalStatus": "Married",
+      "occupation": "Trader",
+      "nationality": "Nigerian/English"
+    },
+    "personalData": {
+      "dob": "30th June, 1990",
+      "height": "164CM",
+      "weight": "80KG"
+    },
+    "address": {
+      "country": "Nigeria",
+      "state": "Nassarawa State",
+      "lga": "Karu LGA",
+      "ward": "Plot 345, Gwandara"
+    },
+    "contact": {
+      "phone": "08134323435",
+      "email": "stephejike@gmail.com"
+    },
+    "finances": {
+      "BVN": "2113345001",
+      "banks": ["Taj Bank"]
+    },
+    "health": { "bloodgroup": "AB+", "genotype": "AS", "ailments": null }
+  }
+]
